@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+#time {
+  font-size: 8rem;
+  text-shadow: 2px 2px 12px black;
+}
+h1 {
+  margin-bottom:1rem;
+  text-shadow: 2px 2px 12px black;
+  font-size: 4rem;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  opacity: 0.8;
+  text-shadow: 2px 2px 12px black;
+}
+#name {
+    color: rgb(56, 175, 243);
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+#focus{
+    color: rgb(124, 198, 241);
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#quote{
+    font-size: 1.3rem;
+    margin-top: 2.0rem;
+    text-shadow: 2px 2px 12px black;
+    font-family:-apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:382px;
+    line-height: 22px;
+}
+
+@media (max-width: 700px) {
+  #time {
+    font-size: 6rem;
+  }
+
+  #name {
+    color: rgb(106, 241, 88);
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+#focus{
+    color: rgb(161, 241, 150);
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#quote {
+    font-size: 1.1rem;
+    margin-bottom: 0.5 rem;
+}
+
+}
